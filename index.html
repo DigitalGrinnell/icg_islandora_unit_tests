@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Icg islandora unit tests : This is a set of unit tests, based on the Simpletest framework, for verifying functionality of an Islandora site or multiple sites. ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Icg islandora unit tests</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests">View on GitHub</a>
+
+          <h1 id="project_title">Icg islandora unit tests</h1>
+          <h2 id="project_tagline">This is a set of unit tests, based on the Simpletest framework, for verifying functionality of an Islandora site or multiple sites. </h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="icg-islandora-unit-tests" class="anchor" href="#icg-islandora-unit-tests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ICG Islandora Unit Tests</h1>
+
+<h4>
+<a id="authors" class="anchor" href="#authors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AUTHORS</h4>
+
+<ul>
+<li>David Keiser-Clark (<a href="mailto:dwk2@williams.edu">dwk2@williams.edu</a>), Office for Information Technology, Williams College</li>
+<li>(Chris Warren, formerly of Williams College)</li>
+</ul>
+
+<h2>
+<a id="instructions" class="anchor" href="#instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>INSTRUCTIONS</h2>
+
+<p>This is a set of unit tests, based on the <a href="http://simpletest.org/index.html">Simpletest</a> framework, for verifying functionality of an Islandora site or multiple sites.
+Instructions for use:</p>
+
+<ol>
+<li>Copy the "institution.cfg.php.sample" file and rename it "institution.cfg.php"</li>
+<li>Update the default values within the "institution.cfg.php" configuration file</li>
+<li>From your laptop, navigate to the correct localhost path (i.e. http://localhost/icg_islandora_unit_tests/TestNarrowSuite.php) to run this set of unit test files against any live or local server. </li>
+<li>Note that testing against "TestNarrowSuite.php" offers micro-control for developing tests, while "TestOfWebPageSuite.php" or "TestOfAllSuite.php" runs against larger or all available tests.<br>
+</li>
+</ol>
+
+<h4>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FEATURES</h4>
+
+<ul>
+<li>Single configuration file (institution.cfg.php) permits you to set the target domain. It is easy to switch tests between local, development or production servers.</li>
+<li>Test the live, dev or local server (and easily switch your focus)</li>
+<li>Test web accessibility</li>
+<li>Test database (Fedora) accessibility</li>
+<li>Test main site and multisite accessibility </li>
+<li>Test basic site functionality</li>
+<li>Test existence of specific pages</li>
+<li>Test solution packs</li>
+<li>Test collections (this site only)</li>
+<li>Test collection objects</li>
+<li>Test search and facets</li>
+<li>Test security conditions</li>
+<li>Test login functionality and expectations</li>
+<li>Test both HTTP and HTTPS functionality</li>
+</ul>
+
+<h4>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DEPENDENCIES</h4>
+
+<ul>
+<li>install: Apache, PHP 5.2 (or higher); can run locally by installing <a href="https://www.apachefriends.org/download.html">XAMPP</a> (Apache/PHP development environment)</li>
+<li>Note the following custom/edited files in the otherwise default "/simpletest/" directory:
+
+<ol>
+<li>"web_tester_islandora.php" (new file - extends default testing behavior)</li>
+<li>"reporter.php" (edited file - improved css/html for more pleasant UI test results)</li>
+</ol>
+</li>
+</ul>
+
+<h4>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>LICENSE</h4>
+
+<ul>
+<li>Copyright (c) 2016 Williams College</li>
+<li>Dual licensed under the MIT and GPL licenses.</li>
+<li>Free as in Bacon.</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Icg islandora unit tests maintained by <a href="https://github.com/Islandora-Collaboration-Group">Islandora-Collaboration-Group</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
