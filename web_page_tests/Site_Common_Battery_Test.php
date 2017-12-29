@@ -69,10 +69,11 @@
 		}
 
 		function doTestSiteAboutPage() {
-			$this->get($this->getTestingUrlBase() . '/about');
+			$this->get($this->getTestingUrlBase() . '/about-digital-grinnell');
 			$this->standardResponseChecks();
 		}
 
+		/*
 		function doTestSiteSearch_browseAll() {
 			if ($this->getTestingUrlBase() == FULL_APP_URL) {
 				// This fails due to parsing error: $this->get(FULL_APP_URL . '/islandora/search');
@@ -86,6 +87,7 @@
 				$this->assertPattern('/islandora-solr-search-result-inner/'); // at least one result
 			}
 		}
+		*/
 
 		#############################################################
 		# Test Solution Packs
