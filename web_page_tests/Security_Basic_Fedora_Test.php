@@ -36,26 +36,26 @@
 			$this->standardResponseChecks();
 		}
 
-		function TestFedoraAccessByHttps() {
-			$this->get('https://' . FEDORA_DOMAIN . FEDORA_PORT . FEDORA_FOLDER);
-			$this->standardResponseChecks();
-		}
+		// function TestFedoraAccessByHttps() {
+		// 	$this->get('https://' . FEDORA_DOMAIN . FEDORA_PORT . FEDORA_FOLDER);
+		// 	$this->standardResponseChecks();
+		// }
 
-		function TestFedoraHttpAccessIsRedirectedToHttps() {
-			$this->get('http://' . FEDORA_DOMAIN . FEDORA_PORT . FEDORA_FOLDER);
-			$this->standardResponseChecks();
-			$this->assertEqual($this->getUrl(), 'https://' . FEDORA_DOMAIN . FEDORA_PORT . FEDORA_FOLDER);
-		}
+		// function TestFedoraHttpAccessIsRedirectedToHttps() {
+		//	$this->get('http://' . FEDORA_DOMAIN . FEDORA_PORT . FEDORA_FOLDER);
+		//	$this->standardResponseChecks();
+		//	$this->assertEqual($this->getUrl(), 'https://' . FEDORA_DOMAIN . FEDORA_PORT . FEDORA_FOLDER);
+		// }
 
-		function TestFedoraServerAccessibleOnCampus() {
-			$this->get(FEDORA_PREFIX . FEDORA_DOMAIN . FEDORA_PORT . FEDORA_FOLDER);
-			$this->standardResponseChecks();
-		}
+		// function TestFedoraServerAccessibleOnCampus() {
+		//	$this->get(FEDORA_PREFIX . FEDORA_DOMAIN . FEDORA_PORT . FEDORA_FOLDER);
+		//	$this->standardResponseChecks();
+		// }
 
-		function TestFedoraServerAccessRestrictedOffCampus() {
-			$this->get(FEDORA_PREFIX . FEDORA_DOMAIN . ':80' . FEDORA_FOLDER);
-			$this->standardRestrictedChecks();
-		}
+		// function TestFedoraServerAccessRestrictedOffCampus() {
+		//	$this->get(FEDORA_PREFIX . FEDORA_DOMAIN . ':80' . FEDORA_FOLDER);
+		//	$this->standardRestrictedChecks();
+		// }
 
 		#############################################################
 		# Utility Tool: Flush content to keep browser alive

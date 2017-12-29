@@ -90,38 +90,29 @@
 		function TestAccessibility_Collection_And_Object() {
 			# array elements: ['collection_id', 'object_id']
 			$array_collection_and_object_ids = [
-				['alexanderdavidson%3Aphotography', 'alexanderdavidson%3A237']
-				, ['andyjaffe%3Aproject', 'andyjaffe%3A49']
-				, ['architectural-plans%3Aimages', 'architectural-plans%3A7']
-				, ['archivesartifactcollection%3Aimages', 'archivesartifactcollection%3A3']
-				, ['archivesmovingimages%3Avideos', 'archivesmovingimages%3A1']
-				, ['archivespapermaterials%3Aimages', 'archivespapermaterials%3A57']
-				, ['archivesphotocollection%3Aimages', 'archivesphotocollection%3A587']
-				, ['costumearchives%3Aimages', 'costumearchives%3A28']
-				, ['daviscenter%3Avideos', 'daviscenter%3A67']
-				, ['daviscenter%3Aposters', 'daviscenter%3A30']
-				, ['davislectureseriesimages%3Aimages', '']
-				, ['dively%3Aposters', 'dively%3Aposters']
-				, ['dwight%3Apapers', 'dwight%3A32']
-				, ['ephraim%3Apipetongs', '']
-				, ['ephraimwilliamsproject%3Aimages', 'ephraimwilliamsproject%3A11']
-				, ['facultyarticles%3Atext', 'facultyarticles%3A133']
-				, ['foundingdocuments%3Aimages', 'foundingdocuments%3A1']
-				, ['holley%3Apapers', 'holley%3A17']
-				, ['hopkinsforestmaps%3Aimages', 'hopkinsforestmaps%3A241']
-				, ['islandora%3Aicgdemo', '']
-				, ['lavaka%3Aimages', 'lavaka%3A64']
-				, ['maps%3Awilliamstown', 'maps%3A14']
-				, ['oralhistoryproject%3Aabstracts', 'oralhistoryproject%3A1']
-				, ['presidentialinduction%3Aspeeches', 'presidentialinduction%3A7']
-				, ['psalmodiarchaeology%3Aimages', 'psalmodiarchaeology%3A177']
-				, ['reily%3Ascrapbook', 'reily%3A50']
-				, ['sedimentology%3Aimages', 'sedimentology%3A319']
-				, ['shakers%3Ahighlights', 'shakers%3A63']
-				, ['shakers%3Asongbooks', 'shakers%3A35']
-				, ['studenttheses%3Aobject', 'studenttheses%3A242']
-				, ['williams-higher-education%3Amixed-materials', 'williams-higher-education%3A27']
-				// , ['','']
+				['grinnell:studio-student-art', 'grinnell:20629'],
+				['grinnell:phpp', 'grinnell:20619'],
+				['grinnell:postcards', 'grinnell:20601'],
+				['grinnell:faculty-scholarship', 'grinnell:20234'],
+				['grinnell:college-life', 'grinnell:20182'],
+				['grinnell:alumni-oral-histories', 'grinnell:19526'],
+				['grinnell:student-scholarship', 'grinnell:19508'],
+				['grinnell:archives-suppressed', 'grinnell:19436'],
+				['grinnell:curricular-materials', 'grinnell:19112'],
+				['grinnell:grinnell-in-china', 'grinnell:18749'],
+				['grinnell:jimmy-ley', 'grinnell:18741'],
+				['grinnell:social-gospel', 'grinnell:18375'],
+				['grinnell:ancient-coins', 'grinnell:17339'],
+				['grinnell:geology', 'grinnell:17236'],
+				['grinnell:geology-suppressed', 'grinnell:17234'],
+				['grinnell:gwcc', 'grinnell:12427'],
+				['grinnell:kleinschmidt', 'grinnell:12228'],
+				['grinnell:college-buildings', 'grinnell:11807'],
+				['grinnell:college-history', 'grinnell:11782'],
+				['grinnell:faulconer', 'faulconer-art:6480'],
+				['grinnell:faulconer-suppressed', 'faulconer-art:6457'],
+				['grinnell:recent-art-acquisitions', 'faulconer-art:6573'],
+				['grinnell:soviet-graphic-art', 'faulconer-art:3199']
 			];
 
 			$this->doTestSite_Collections_and_Objects($array_collection_and_object_ids);
