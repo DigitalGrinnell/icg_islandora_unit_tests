@@ -17,6 +17,7 @@
 			$this->doStandardBasicSiteTests();
 		}
 
+		/*
 		function TestStartAProject() {
 			$this->get(FULL_APP_URL . '/start-a-project');
 			$this->standardResponseChecks();
@@ -33,6 +34,7 @@
 			$this->get(FULL_APP_URL . '/node/6');
 			$this->standardResponseChecks();
 		}
+		*/
 
 		#############################################################
 		# Test Solution Packs
