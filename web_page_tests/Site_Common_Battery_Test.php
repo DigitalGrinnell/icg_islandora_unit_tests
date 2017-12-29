@@ -60,7 +60,7 @@
 		function doStandardBasicSiteTests() {
 			$this->doTestSiteHomePage();
 			$this->doTestSiteAboutPage();
-			$this->doTestSiteSearch_browseAll();
+			// $this->doTestSiteSearch_browseAll();
 		}
 
 		function doTestSiteHomePage() {
@@ -69,11 +69,11 @@
 		}
 
 		function doTestSiteAboutPage() {
-			$this->get($this->getTestingUrlBase() . '/about-digital-grinnell');
+			$this->get($this->getTestingUrlBase() . '/content/about-digital-grinnell');
 			$this->standardResponseChecks();
 		}
 
-		/*
+        /*
 		function doTestSiteSearch_browseAll() {
 			if ($this->getTestingUrlBase() == FULL_APP_URL) {
 				// This fails due to parsing error: $this->get(FULL_APP_URL . '/islandora/search');
