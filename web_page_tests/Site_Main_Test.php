@@ -44,36 +44,40 @@
 		}
 
 		function TestContentModelDisplay_Audio() {
-			$this->doContentModelTest_Audio('', 'andyjaffe', '49');
+			$this->doContentModelTest_Audio('', 'grinnell', '10942');
 		}
 
 		function TestContentModelDisplay_BasicImage() {
-			$this->doContentModelTest_BasicImage('', 'alexanderdavidson', '205');
+			$this->doContentModelTest_BasicImage('', 'grinnell', '10737');
 		}
 
 		function TestContentModelDisplay_Binary() {
-			$this->doContentModelTest_Binary('', '', '');
+			$this->doContentModelTest_Binary('', 'grinnell', '10511');
 		}
 
 		function TestContentModelDisplay_Book() {
-			$this->doContentModelTest_Book('', '', '');
+			$this->doContentModelTest_Book('', 'grinnell', '5317');
 		}
 
 		function TestContentModelDisplay_Compound() {
-			$this->doContentModelTest_Compound('', '', '');
+			$this->doContentModelTest_Compound('', 'grinnell', '5263');
 		}
 
 		function TestContentModelDisplay_LargeImage() {
-			$this->doContentModelTest_LargeImage('', 'hopkinsforestmaps', '186');
+			$this->doContentModelTest_LargeImage('', 'grinnell', '5281');
 		}
 
 		function TestContentModelDisplay_PDF() {
-			$this->doContentModelTest_PDF('', 'facultyarticles', '135');
+			$this->doContentModelTest_PDF('', 'grinnell', '5272');
 		}
 
 		function TestContentModelDisplay_Video() {
-			$this->doContentModelTest_Video('', 'andyjaffe', '42');
+			$this->doContentModelTest_Video('', 'grinnell', '4933');
 		}
+
+        // function TestContentModelDisplay_OralHistory() {
+        //    $this->doContentModelTest_OralHistory('', 'grinnell', '19509');
+        // }
 
 		function Test_SolutionPacks_End() {
 			echo "</ul>";
