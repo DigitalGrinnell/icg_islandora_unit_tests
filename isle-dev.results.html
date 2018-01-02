@@ -1,0 +1,167 @@
+Running against: http://isle-dev.grinnell.edu
+
+TestOfWebPageSuite.php
+TESTING: http://isle-dev.grinnell.edu
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestSiteBasics -> Nothing fetched
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestSiteBasics -> Expecting response in [200] got [0] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 43]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu
+
+Testing Solution Packs
+
+Test Successful: Audio Solution Pack - http://isle-dev.grinnell.edu/islandora/object/grinnell%3A10942
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_Audio -> Pattern [/"file":"http:\\\/\\\/isle-dev.grinnell.edu\\\/islandora\\\/object\\\/grinnell%3A10942\\\/datastream\\\/PROXY_MP3"/] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 138]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_Audio -> Pattern [/<div id="mediaplayer">Loading JW Player...<\/div>/] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 139]
+
+Test Successful: Basic Image Solution Pack - http://isle-dev.grinnell.edu/islandora/object/grinnell%3A10737
+Test Successful: Binary Object Solution Pack - http://isle-dev.grinnell.edu/islandora/object/grinnell%3A10511
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_Binary -> Pattern [/FAIL[^s]/i] detected at character [22198] in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] as [faile] in region [...g in opposition to a conservative government that failed to respond to the AIDS crisis, current quee...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 45]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell%3A10511
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_Binary -> TESTS FOR BINARY CONTENT MODEL NOT IMPLEMENTED (hook in place) at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 162]
+
+Test Successful: Book Solution Pack - http://isle-dev.grinnell.edu/islandora/object/grinnell%3A5317#page/1/mode/1up
+Test Successful: Compound Object Solution Pack - http://isle-dev.grinnell.edu/islandora/object/grinnell%3A5263
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_Compound -> need to implement actual tests for compound content model at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 185]
+
+Test Successful: Large Images - http://isle-dev.grinnell.edu/islandora/object/grinnell%3A5281
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_LargeImage -> Pattern [/\{"pid":"grinnell:5281","resourceUri":"http:\\\/\\\/isle-dev.grinnell.edu\\\/islandora\\\/object\\\/grinnell\%3A5281\\\/datastream\\\/JP2/] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 199]
+
+Test Successful: PDF Solution Pack - http://isle-dev.grinnell.edu/islandora/object/grinnell%3A5272
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_PDF -> Pattern [/src="http:\/\/isle-dev.grinnell.edu\/sites\/all\/libraries\/pdfjs\/web\/viewer.html\?file=()\/islandora\/object\/grinnell\%253A5272\/datastream\/OBJ\/view"/] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 212]
+
+Test Successful: Video Solution Pack - http://isle-dev.grinnell.edu/islandora/object/grinnell%3A4933
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_Video -> Pattern [/<div class="islandora-video-content">/] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 221]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_Video -> Pattern [/<div id="mediaplayer">Loading JW Player...<\/div>/] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 222]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestContentModelDisplay_Video -> Pattern [/"islandora_jwplayer":\{"thumbnail":"http:\\\/\\\/isle-dev.grinnell.edu\\\/islandora\\\/object\\\/grinnell\%3A4933\\\/datastream\\\/TN\\\/view","file":"\\\/islandora\\\/object\\\/grinnell\%3A4933\\\/datastream\\\/MP4\\\/view\\\/file_name_spoof.mp4"/] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 224]
+
+Testing Site Collections and Objects: http://isle-dev.grinnell.edu/islandora/object/islandora%3Aroot
+
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:studio-student-art
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Expecting response in [200] got [404] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 43]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Pattern [/PAGE NOT FOUND/i] detected at character [856] in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] as [Page not found] in region [....ico" type="image/vnd.microsoft.icon" /> <title>Page not found | Digital Grinnell</title> <link...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 49]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell:20629
+
+Failed to find collection object - http://isle-dev.grinnell.edu/islandora/object/grinnell:20629
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:phpp
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Expecting response in [200] got [404] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 43]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Pattern [/PAGE NOT FOUND/i] detected at character [856] in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] as [Page not found] in region [....ico" type="image/vnd.microsoft.icon" /> <title>Page not found | Digital Grinnell</title> <link...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 49]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell:20619
+
+Failed to find collection object - http://isle-dev.grinnell.edu/islandora/object/grinnell:20619
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Nothing fetched
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Expecting response in [200] got [0] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 43]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell:postcards
+
+Failed to find collection - http://isle-dev.grinnell.edu/islandora/object/grinnell:postcards
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:20601
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Pattern [/NOTICE:/i] detected at character [32194] in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] as [notice:] in region [... of the map images, which come with the following notice: &quot;Images copyright 2000 by Cartography...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 47]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell:faculty-scholarship
+
+Failed to find collection - http://isle-dev.grinnell.edu/islandora/object/grinnell:faculty-scholarship
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:20234
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:college-life
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:20182
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:alumni-oral-histories
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:19526
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:student-scholarship
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:19508
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:archives-suppressed
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Nothing fetched
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Expecting response in [200] got [0] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 43]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell:19436
+
+Failed to find collection object - http://isle-dev.grinnell.edu/islandora/object/grinnell:19436
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Nothing fetched
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Expecting response in [200] got [0] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 43]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell:curricular-materials
+
+Failed to find collection - http://isle-dev.grinnell.edu/islandora/object/grinnell:curricular-materials
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:19112
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:grinnell-in-china
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Pattern [/ERROR/i] detected at character [13991] in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] as [error] in region [...l><div class="cleared"></div><div class="messages error"> <h2 class="element-invisible">Error messag...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 44]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Pattern [/ACCESS DENIED/i] detected at character [14048] in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] as [Access denied] in region [... <h2 class="element-invisible">Error message</h2> Access denied. You must log in to view this page.<...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 48]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/user/login?destination=islandora/object/grinnell%3A18749
+
+Failed to find collection object - http://isle-dev.grinnell.edu/user/login?destination=islandora/object/grinnell%3A18749
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:jimmy-ley
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:18741
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:social-gospel
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:18375
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Nothing fetched
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Expecting response in [200] got [0] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 43]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell:ancient-coins
+
+Failed to find collection - http://isle-dev.grinnell.edu/islandora/object/grinnell:ancient-coins
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:17339
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Nothing fetched
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Expecting response in [200] got [0] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 43]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell:geology
+
+Failed to find collection - http://isle-dev.grinnell.edu/islandora/object/grinnell:geology
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Nothing fetched
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Expecting response in [200] got [0] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 43]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/islandora/object/grinnell:17236
+
+Failed to find collection object - http://isle-dev.grinnell.edu/islandora/object/grinnell:17236
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:geology-suppressed
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Pattern [/ERROR/i] detected at character [13991] in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] as [error] in region [...l><div class="cleared"></div><div class="messages error"> <h2 class="element-invisible">Error messag...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 44]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestAccessibility_Collection_And_Object -> Pattern [/ACCESS DENIED/i] detected at character [14048] in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] as [Access denied] in region [... <h2 class="element-invisible">Error message</h2> Access denied. You must log in to view this page.<...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Common_Battery_Test.php line 48]
+
+standardResponseChecks found failures - http://isle-dev.grinnell.edu/user/login?destination=islandora/object/grinnell%3A17234
+
+Failed to find collection object - http://isle-dev.grinnell.edu/user/login?destination=islandora/object/grinnell%3A17234
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:gwcc
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:12427
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:kleinschmidt
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:12228
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:college-buildings
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:11807
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:college-history
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:11782
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:faulconer
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/faulconer-art:6480
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:faulconer-suppressed
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/faulconer-art:6457
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:recent-art-acquisitions
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/faulconer-art:6573
+Collection exists - http://isle-dev.grinnell.edu/islandora/object/grinnell:soviet-graphic-art
+Collection object exists - http://isle-dev.grinnell.edu/islandora/object/faulconer-art:3199
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestSearch_Facets -> Pattern [/<div class="islandora-solr-facet-wrapper"><h3>Collection<\/h3>/i] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Main_Test.php line 137]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestSearch_Facets -> Pattern [/<div class="islandora-solr-facet-wrapper"><h3>Name<\/h3>/i] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Main_Test.php line 138]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestSearch_Facets -> Pattern [/<div class="islandora-solr-facet-wrapper"><h3>Department or Group<\/h3>/i] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Main_Test.php line 139]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestSearch_Facets -> Pattern [/<div class="islandora-solr-facet-wrapper"><h3>Type<\/h3>/i] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Main_Test.php line 140]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestSearch_Facets -> Pattern [/<div class="islandora-solr-facet-wrapper"><h3>Geographic<\/h3>/i] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Main_Test.php line 142]
+
+Fail: Islandora Site Tests -> web_page_tests/Site_Main_Test.php -> Site_Main_Test -> TestSearch_Facets -> Pattern [/<div class="islandora-solr-facet-wrapper"><h3>Language<\/h3>/i] not detected in [String: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" ...] at [/Users/markmcfate/Sites/icg_islandora_unit_tests/web_page_tests/Site_Main_Test.php line 143]
+
+1/3 test cases complete: 451 passes, 39 fails and 0 exceptions.
