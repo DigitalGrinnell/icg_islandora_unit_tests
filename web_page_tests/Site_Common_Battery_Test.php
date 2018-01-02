@@ -134,7 +134,8 @@
 
 			$this->assertPattern('/<div class="islandora-audio-content">/');
 			# match full path
-			$this->assertPattern('/"file":"' . $test_values['full_app_url_triple_escaped'] . $test_values['site_triple_escaped'] . '\\\\\\/islandora\\\\\\/object\\\\\\/' . $namespace . '%3A' . $id_number . '\\\\\\/datastream\\\\\\/PROXY_MP3\\\\\\/file_name_spoof.mp3"/');
+			// $this->assertPattern('/"file":"' . $test_values['full_app_url_triple_escaped'] . $test_values['site_triple_escaped'] . '\\\\\\/islandora\\\\\\/object\\\\\\/' . $namespace . '%3A' . $id_number . '\\\\\\/datastream\\\\\\/PROXY_MP3\\\\\\/file_name_spoof.mp3"/');
+            $this->assertPattern('/"file":"' . $test_values['full_app_url_triple_escaped'] . $test_values['site_triple_escaped'] . '\\\\\\/islandora\\\\\\/object\\\\\\/' . $namespace . '%3A' . $id_number . '\\\\\\/datastream\\\\\\/PROXY_MP3"/');
 			$this->assertPattern('/<div id="mediaplayer">Loading JW Player...<\\/div>/');
 		}
 
